@@ -46,11 +46,11 @@ module.exports = {
       chunks: ["index", "main"],
       filename: "index.html",
     }),
-    // new HtmlWebpackPlugin({
-    //   template: "./list.html",
-    //   chunks: ["list", "main"],
-    //   filename: "list.html",
-    // }),
+    new HtmlWebpackPlugin({
+      template: "./list.html",
+      chunks: ["list", "main"],
+      filename: "list.html",
+    }),
     // new HtmlWebpackPlugin({
     //   template: "./edit.html",
     //   chunks: ["edit", "main"],
